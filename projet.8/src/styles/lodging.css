@@ -1,0 +1,36 @@
+
+/* --- LODGING --- */
+.logement-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .lodging-page {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .lodging-page .collapse-section {
+    gap: 20px;
+  }
+
+  .lodging-page .collapse-title {
+    height: 30px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+
+  .lodging-page .collapse-content {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
+

@@ -1,0 +1,59 @@
+.about-page .banner h1 {
+  display: none;
+}
+
+.about-page {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.collapse-section.about-collapses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.about-collapses .collapse-box {
+  width: 100%;
+  margin: 0;
+}
+
+.about-collapses .collapse-content,
+.about-collapses .collapse-box {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.about-collapses .collapse-content p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 500px) {
+  .about-page {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+  .collapse-section.about-collapses {
+    gap: 20px;
+  }
+
+  .about-collapses .collapse-title {
+    height: 30px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+
+.about-collapses .collapse-content {
+  font-size: 12px;
+  line-height: 1.4;
+}
+}
+

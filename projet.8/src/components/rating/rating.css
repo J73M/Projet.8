@@ -1,0 +1,29 @@
+.rating {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.star-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.host{
+  margin-bottom: 21px;
+}
+
+@media (max-width: 500px) {
+  .host{
+    margin-bottom: 0px;
+  }
+
+  .host-rating{
+    margin-top: 16px;
+  }
+
+  .star-icon {
+    width: 18px;
+    height: 18px;
+  }
+}

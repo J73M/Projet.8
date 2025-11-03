@@ -1,0 +1,77 @@
+/* --- COLLAPSE --- */
+.collapse-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  max-width: 1240px;
+  width: 100%;
+  margin: 2rem auto;
+  align-items: flex-start;
+}
+
+
+.collapse-box {
+  flex: 1;
+  background-color: #ff6060;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.collapse-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.collapse-icon {
+  width: 20px;
+  height: 20px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.collapse-icon.open {
+  transform: rotate(-180deg);
+}
+
+.collapse-content {
+  background-color: #f6f6f6;
+  color: #333;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 1rem;
+  max-height: 0;
+}
+
+.collapse-content.open {
+  padding: 1rem;
+}
+
+.collapse-content p,
+.collapse-content li {
+  margin: 0.3rem 0;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 900px) {
+  .collapse-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+    .collapse-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .collapse-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
