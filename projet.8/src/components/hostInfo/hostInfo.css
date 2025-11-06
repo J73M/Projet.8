@@ -1,3 +1,5 @@
+/* --- HOST INFO --- */
+
 .host {
   display: flex;
   align-items: center;
@@ -17,8 +19,6 @@
 
 /* --- MEDIA QUERIES --- */
 @media (max-width: 900px) {
-
-
 }
 
 @media (max-width: 500px) {
@@ -29,14 +29,14 @@
     width: 100%;
   }
 
-  .host p{
+  .host p {
     font-size: 12px;
   }
 
   .host-picture {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 }

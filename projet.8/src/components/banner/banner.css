@@ -1,10 +1,10 @@
-/* --- BANNIÈRE --- */
+/* --- BANNER --- */
 
 .banner-wrapper {
   width: 100vw;
   display: flex;
   justify-content: center;
-  margin-left: calc(-1 * (100vw - 100%)/2);
+  margin-left: calc(-1 * (100vw - 100%) / 2);
   box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .banner img {
@@ -46,7 +46,7 @@
   font-weight: 700;
   text-align: center;
   z-index: 1;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   padding: 0 10px;
 }
 
@@ -55,6 +55,7 @@
   .banner-wrapper {
     padding: 0 20px;
   }
+
   .banner {
     max-width: 100%;
   }
@@ -64,6 +65,7 @@
   .banner {
     height: 180px;
   }
+
   .banner h1 {
     font-size: 1.5rem;
   }
@@ -76,10 +78,12 @@
     padding: 0 10px;
     border-radius: 10px;
   }
+
   .banner h1 {
     font-size: 24px;
     text-align: left;
   }
+
   .mobile-break {
     display: block;
   }

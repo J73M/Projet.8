@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-main{
+main {
   padding: 20px 2vw;
   padding-bottom: 0;
 }
@@ -14,7 +14,7 @@ body {
   font-family: "montserrat", sans-serif;
   background-color: rgb(255, 255, 255);
   color: #333;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 /* --- CONTENEUR GLOBAL --- */
@@ -22,13 +22,14 @@ body {
   max-width: 1240px;
   margin: 0 auto;
 }
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
   padding-top: 20px;
 }
 
-/* --- MISCELLANEOUS ---*/
+/* --- MISCELLANEOUS --- */
 .mobile-break {
   display: none;
 }
@@ -45,11 +46,9 @@ main.flex-grow {
   flex-direction: column;
 }
 
-
 /* --- MEDIA QUERIES POUR PETITS ÉCRANS --- */
-@media (max-width: 500px)
-{
-.mobile-break {
+@media (max-width: 500px) {
+  .mobile-break {
     display: block;
-}
+  }
 }

@@ -1,3 +1,5 @@
+/* --- RATING --- */
+
 .rating {
   display: flex;
   gap: 0.2rem;
@@ -9,16 +11,16 @@
   object-fit: contain;
 }
 
-.host{
+.host {
   margin-bottom: 21px;
 }
 
 @media (max-width: 500px) {
-  .host{
+  .host {
     margin-bottom: 0px;
   }
 
-  .host-rating{
+  .host-rating {
     margin-top: 16px;
   }
 

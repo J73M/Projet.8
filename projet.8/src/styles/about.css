@@ -38,7 +38,8 @@
     margin: 0 auto;
     padding-bottom: 0px;
     padding-top: 0px;
-}
+  }
+
   .collapse-section.about-collapses {
     gap: 20px;
   }
@@ -51,9 +52,8 @@
     font-size: 13px;
   }
 
-.about-collapses .collapse-content {
-  font-size: 12px;
-  line-height: 1.4;
+  .about-collapses .collapse-content {
+    font-size: 12px;
+    line-height: 1.4;
+  }
 }
-}
-
