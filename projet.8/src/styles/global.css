@@ -29,6 +29,12 @@ body {
   padding-top: 20px;
 }
 
+.page-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /* --- MISCELLANEOUS --- */
 .mobile-break {
   display: none;

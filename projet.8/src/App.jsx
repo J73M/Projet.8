@@ -11,13 +11,13 @@ import "./styles/global.css";
 // --- Layout principal  --- //
 function Layout() {
   return (
-    <>
+    <div className="page-content">
       <Header />
       <main className="flex-grow">
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

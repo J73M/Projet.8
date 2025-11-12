@@ -32,7 +32,6 @@ export default function AboutPage() {
   return (
     <main className="about-page">
       <Banner image={aboutBanner} alt="Bannière à propos" />
-
       <div className="collapse-section about-collapses">
         {aboutData.map((item, index) => (
           <Collapse key={index} title={item.title} content={item.content} />
